@@ -1,0 +1,156 @@
+@charset "ISO-8859-1";
+
+/* Reset default margins and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    background-color: #f5f5f5;
+    font-family: 'Verdana', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* Header Section Styles */
+#logo {
+    float: left;
+    margin: 10px;
+}
+
+.headTopic {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+}
+
+#mainHeading {
+    font-weight: bold;
+    color: #004b73;
+    font-size: 36px;
+}
+
+#slogan {
+    font-weight: bold;
+    color: #4ea6c8;
+    font-size: 20px;
+}
+
+.AlreadyAcc {
+    float: right;
+    margin-top: 20px;
+}
+
+.RRB {
+    background-color: #004b73;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Line Styles */
+.Line {
+    background-color: #4ea6c8;
+    height: 2px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Page Title */
+h1 {
+    color: #004b73;
+    font-size: 32px;
+    text-align: center;
+}
+
+/* Form Styles */
+fieldset {
+    border: 1px solid #d9d9d9;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+}
+
+/* Form Elements */
+input[type="text"],
+select,
+input[type="password"],
+input[type="button"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+#psw {
+    position: relative;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+#viewe {
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+/* Form Buttons Styles */
+.FormButtons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#login,
+#cancel,
+#cancel1 {
+    background-color: #004b73;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+    display: inline-block;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #4ea6c8;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Footer Table Styles */
+.footTable {
+    text-align: center;
+}
+
+/* Copyright Styles */
+#Cpyright {
+    text-align: center;
+    font-size: 14px;
+}

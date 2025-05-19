@@ -1,0 +1,159 @@
+@charset "ISO-8859-1";
+
+/* Body Styles */
+body {
+  background-color: #f5f5f5;;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Header Section Styles BEGINS */
+#logo {
+  float: left;
+}
+
+.headTopic {
+  text-align: center;
+  position: relative;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#mainHeading {
+  font-weight: bolder;
+  color: #004b73;
+}
+
+#slogan {
+  font-weight: bold;
+  color: #4ea6c8;
+}
+
+.AlreadyAcc {
+  float: right;
+}
+
+
+.LRB {
+  background-color: #004b73;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.Line {
+  background-color: #4ea6c8;
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  color: #004b73;
+}
+
+/* Form Styles */
+fieldset {
+  border-color: #004b73;
+}
+
+#subbtn {
+  background-color: #004b73;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+#clear {
+  background-color: #4ea6c8;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+/* Form Input Styles */
+input[type=text],
+select,
+input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px;
+  display: inline-block;
+  border: 1px solid #AEE2FF;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#DOB,
+#address,
+#ms,
+#phone-number,
+#psw,
+#cpsw {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px;
+  display: inline-block;
+  border: 1px solid #AEE2FF;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#DOB {
+  width: 30%;
+}
+
+#ms {
+  width: 20%;
+}
+
+#phone-number {
+  width: 30%;
+}
+
+/* Form Buttons Styles */
+.FormButtons {
+  float: right;
+}
+
+#TermCon {
+  background-color: #ACBCFF;
+}
+
+#Reg {
+  background-color: #004b73;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 2px;
+  float: right;
+}
+
+/* Footer Styles BEGINS */
+footer {
+  background-color: #4ea6c8;
+  padding: 20px;
+}
+
+.footTable {
+  text-align: left;
+}
+
+#Cpyright {
+  float: right;
+}
+/* Footer Styles ENDS */

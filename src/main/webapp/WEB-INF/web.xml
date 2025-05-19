@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+         
+<servlet>
+	<servlet-name>Login</servlet-name>
+	<servlet-class>com.java.servlet.LoginServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>Login</servlet-name>
+	<url-pattern>/log</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>Logout</servlet-name>
+	<servlet-class>com.java.servlet.LogoutServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>Logout</servlet-name>
+	<url-pattern>/logout</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>Registration</servlet-name>
+	<servlet-class>com.java.servlet.RegisterServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>Registration</servlet-name>
+	<url-pattern>/reg</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>addMed</servlet-name>
+	<servlet-class>com.java.servlet.addMedServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>addMed</servlet-name>
+	<url-pattern>/addMed</url-pattern>
+</servlet-mapping>
+
+<servlet>
+
+	<servlet-name>orderByManager</servlet-name>
+	<servlet-class>com.java.servlet.ManagerOrderServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>orderByManager</servlet-name>
+	<url-pattern>/ManOrd</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>Supplier</servlet-name>
+	<servlet-class>com.java.servlet.SupplierServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>Supplier</servlet-name>
+	<url-pattern>/supp</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>orderStatus</servlet-name>
+	<servlet-class>com.java.servlet.UpdateOrderStatusServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>orderStatus</servlet-name>
+	<url-pattern>/ordSt</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+	<servlet-name>updateMOrder</servlet-name>
+	<servlet-class>com.java.servlet.UpdateManagerOrderServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>updateMOrder</servlet-name>
+	<url-pattern>/updMOrd</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>deleteMOrder</servlet-name>
+	<servlet-class>com.java.servlet.DeleteOrderServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>deleteMOrder</servlet-name>
+	<url-pattern>/delMOrd</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>EmpInsertServlet</servlet-name>
+	<servlet-class>com.java.servlet.EmpInsertServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>EmpInsertServlet</servlet-name>
+	<url-pattern>/insertform</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>EmpUpdateServlet</servlet-name>
+	<servlet-class>com.java.servlet.EmpUpdateServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>EmpUpdateServlet</servlet-name>
+	<url-pattern>/updatetform</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>EmpDeleteServlet</servlet-name>
+	<servlet-class>com.java.servlet.EmpDeleteServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>EmpDeleteServlet</servlet-name>
+	<url-pattern>/deleteform</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+        <servlet-name>updateMedServlet</servlet-name>
+        <servlet-class>com.java.servlet.updateMedServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+        <servlet-name>updateMedServlet</servlet-name>
+        <url-pattern>/updateMed</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+        <servlet-name>deleteMedServlet</servlet-name>
+        <servlet-class>com.java.servlet.deleteMedServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+        <servlet-name>deleteMedServlet</servlet-name>
+        <url-pattern>/deleteMed</url-pattern>
+</servlet-mapping>
+
+
+</web-app>
+
+

@@ -1,0 +1,94 @@
+@charset "ISO-8859-1";
+/* Reset some default styles */
+body, h1, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    background-color: #4682B4;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.logo img {
+    max-width: 100px;
+    height: auto;
+}
+
+#mainHeading {
+    font-size: 36px;
+}
+
+#slogan {
+    font-size: 18px;
+}
+
+/* Main content styles */
+h1 {
+    margin: 20px 0;
+}
+
+.MainBoxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Footer styles */
+footer {
+    background-color: #4682B4;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footTable {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.footTable th, .footTable td {
+    text-align: center;
+    padding: 10px;
+}
+
+.footTable a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#Cpyright {
+    font-size: 12px;
+}
+
+
